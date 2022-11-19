@@ -1,0 +1,41 @@
+{
+  "name": "graphql-servicebus-queues",
+  "version": "1.0.0",
+  "description": "A GraphQL subscriptions library for Azure Service Bus Queues.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photomoose/graphql-servicebus-queues.git"
+  },
+  "keywords": [
+    "azure",
+    "queues",
+    "graphql",
+    "servicebus",
+    "websockets",
+    "subscriptions"
+  ],
+  "author": "Tom Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/photomoose/graphql-servicebus-queues/issues"
+  },
+  "homepage": "https://github.com/photomoose/graphql-servicebus-queues#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "2.7.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.7.3",
+    "graphql-subscriptions": "^2.0.0"
+  }
+}
