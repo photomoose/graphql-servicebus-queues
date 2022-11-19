@@ -1,10 +1,11 @@
 {
   "name": "graphql-servicebus-queues",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A GraphQL subscriptions library for Azure Service Bus Queues.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "semantic-release": "semantic-release --dry-run"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "2.7.1",
+    "semantic-release": "^19.0.5",
     "typescript": "^4.9.3"
   },
   "dependencies": {

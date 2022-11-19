@@ -21,3 +21,9 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Release
+        if: github.event_name != 'pull_request'
+        run: npm run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
