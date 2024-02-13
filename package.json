@@ -27,7 +27,7 @@
   "homepage": "https://github.com/photomoose/graphql-servicebus-queues#readme",
   "devDependencies": {
     "@semantic-release/npm": "^9.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
     "eslint": "^8.28.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",
